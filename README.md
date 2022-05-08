@@ -8,7 +8,7 @@ the Python programming language for processing the raw data and generating SQL s
 and Tableau Public software for data visualization.
 
 ## Technologies
-Project is created with
+The project is created with:
 * Python version 3.8.13
 * MySQL Workbench 8.0.27
 * Tableau Public 2022.1.1

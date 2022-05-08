@@ -55,7 +55,6 @@ with open("World_Energy_Consumption.csv", 'r') as file_raw_data:
 
     # for each table, create a list of columns in that table
     table_countries_cols = ['country', 'iso_code']
-    # table_countries_euro_cols = ['country', 'iso_code']
     table_data_cols = header.copy()
     table_data_cols.remove('iso_code')
 
@@ -67,7 +66,6 @@ with open("World_Energy_Consumption.csv", 'r') as file_raw_data:
 
     # for each table, create a list of the column indexes corresponding to raw data file columns
     table_countries_indexes = [header.index(col) for col in table_countries_cols]
-    # table_countries_euro_indexes = [header.index(col) for col in table_countries_euro_cols]
     table_data_indexes = [header.index(col) for col in table_data_cols]
 
     # split the raw data file into csv files for each table
@@ -117,6 +115,8 @@ with open("World_Energy_Consumption.csv", 'r') as file_raw_data:
         wr_countries_euro.writerow(table_countries_euro_cols)
         for raw_line in f_input_euro:
             country, subregion = raw_line.replace('\n', "").split(',')
+
+            # check if the country name appears in the World_Energy_Consumption file, if not ignore it
             if country in countries_list:
                 wr_countries_euro.writerow([country, subregion])
             else:
