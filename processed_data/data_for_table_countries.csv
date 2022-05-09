@@ -1,6 +1,6 @@
 country,iso_code
 Afghanistan,AFG
-Africa,NULL
+Africa,\N
 Albania,ALB
 Algeria,DZA
 American Samoa,ASM
@@ -9,7 +9,7 @@ Antigua and Barbuda,ATG
 Argentina,ARG
 Armenia,ARM
 Aruba,ABW
-Asia Pacific,NULL
+Asia Pacific,\N
 Australia,AUS
 Austria,AUT
 Azerbaijan,AZE
@@ -32,14 +32,14 @@ Brunei,BRN
 Bulgaria,BGR
 Burkina Faso,BFA
 Burundi,BDI
-CIS,NULL
+CIS,\N
 Cambodia,KHM
 Cameroon,CMR
 Canada,CAN
 Cape Verde,CPV
 Cayman Islands,CYM
 Central African Republic,CAF
-Central America,NULL
+Central America,\N
 Chad,TCD
 Chile,CHL
 China,CHN
@@ -53,13 +53,13 @@ Croatia,HRV
 Cuba,CUB
 Cyprus,CYP
 Czechia,CZE
-Czechoslovakia,NULL
+Czechoslovakia,\N
 Democratic Republic of Congo,COD
 Denmark,DNK
 Djibouti,DJI
 Dominica,DMA
 Dominican Republic,DOM
-Eastern Africa,NULL
+Eastern Africa,\N
 Ecuador,ECU
 Egypt,EGY
 El Salvador,SLV
@@ -68,10 +68,10 @@ Eritrea,ERI
 Estonia,EST
 Eswatini,SWZ
 Ethiopia,ETH
-Europe,NULL
-Europe (other),NULL
+Europe,\N
+Europe (other),\N
 Faeroe Islands,FRO
-Falkland Islands ,NULL
+Falkland Islands ,\N
 Fiji,FJI
 Finland,FIN
 France,FRA
@@ -132,8 +132,8 @@ Martinique,MTQ
 Mauritania,MRT
 Mauritius,MUS
 Mexico,MEX
-Middle Africa,NULL
-Middle East,NULL
+Middle Africa,\N
+Middle East,\N
 Moldova,MDA
 Mongolia,MNG
 Montenegro,MNE
@@ -152,20 +152,20 @@ Nicaragua,NIC
 Niger,NER
 Nigeria,NGA
 Niue,NIU
-North America,NULL
+North America,\N
 North Korea,PRK
 North Macedonia,MKD
 Northern Mariana Islands,MNP
 Norway,NOR
-OPEC,NULL
+OPEC,\N
 Oman,OMN
-Other Asia & Pacific,NULL
-Other CIS,NULL
-Other Caribbean,NULL
-Other Middle East,NULL
-Other Northern Africa,NULL
-Other South America,NULL
-Other Southern Africa,NULL
+Other Asia & Pacific,\N
+Other CIS,\N
+Other Caribbean,\N
+Other Middle East,\N
+Other Northern Africa,\N
+Other South America,\N
+Other Southern Africa,\N
 Pakistan,PAK
 Palestine,PSE
 Panama,PAN
@@ -177,7 +177,7 @@ Poland,POL
 Portugal,PRT
 Puerto Rico,PRI
 Qatar,QAT
-Reunion,NULL
+Reunion,\N
 Romania,ROU
 Russia,RUS
 Rwanda,RWA
@@ -198,7 +198,7 @@ Slovakia,SVK
 Slovenia,SVN
 Solomon Islands,SLB
 Somalia,SOM
-South & Central America,NULL
+South & Central America,\N
 South Africa,ZAF
 South Korea,KOR
 South Sudan,SSD
@@ -221,23 +221,23 @@ Tunisia,TUN
 Turkey,TUR
 Turkmenistan,TKM
 Turks and Caicos Islands,TCA
-USSR,NULL
+USSR,\N
 Uganda,UGA
 Ukraine,UKR
 United Arab Emirates,ARE
 United Kingdom,GBR
 United States,USA
-United States Pacific Islands,NULL
+United States Pacific Islands,\N
 United States Virgin Islands,VIR
 Uruguay,URY
 Uzbekistan,UZB
 Vanuatu,VUT
 Venezuela,VEN
 Vietnam,VNM
-Western Africa,NULL
+Western Africa,\N
 Western Sahara,ESH
 World,OWID_WRL
 Yemen,YEM
-Yugoslavia,NULL
+Yugoslavia,\N
 Zambia,ZMB
 Zimbabwe,ZWE
