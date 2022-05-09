@@ -97,8 +97,8 @@ with open(file_path_world_energy, 'r') as file_raw_data:
 
             # for SQL compatibility, replace empty value fields and inf fields with \N,
             # which is how the NULL value is designated in SQL input
-            line = [item if item != "" else r"\N" for item in line]
-            line = [item if item != "inf" else r"\N" for item in line]
+            line = [item if item != "" else "\\N" for item in line]
+            line = [item if item != "inf" else "\\N" for item in line]
 
             # if the country hasn't appeared before, add it to the dictionary
             country = line[1]
