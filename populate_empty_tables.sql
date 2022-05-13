@@ -1,5 +1,8 @@
 USE world_energy_v2;
 
+set global local_infile = TRUE;
+show global variables like 'local_infile';
+
 -- populate the countries table
 DELETE FROM countries;
 LOAD DATA LOCAL INFILE "E:/projects/ProjectEuropeEnergy/processed_data/data_for_table_countries.csv"
