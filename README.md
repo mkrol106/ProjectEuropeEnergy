@@ -3,9 +3,10 @@
 ## Description
 This is a data analysis training project, in which the data from the World Energy Consumption dataset is used to present the usage of different energy sources across
 Europe.
-The project employs the MySQL RDBMS (Relational Database Management System) for storing and querying the imported data, 
-the Python programming language for processing the raw data and generating SQL scripts,
-and Tableau Public software for data visualization.
+The project employs:
+- MySQL RDBMS (Relational Database Management System) for storing and querying the imported data, 
+- Python programming language for processing the raw data and generating SQL scripts,
+- Tableau Public software for data visualization.
 
 ## Technologies
 The project is created with:
@@ -40,8 +41,8 @@ After the processed data files were created, the populate_empty_tables.sql scrip
 the SQL database was fully operational.
 
 
-## Exploring data
-To make sure the data was loaded correctly and observe basic insights about it, a SQL cript data_exploration.sql was created to go through the stored
+## Data exploration
+To make sure the data was loaded correctly and observe basic insights about it, a SQL script data_exploration.sql was created to go through the stored
 data. Basic information, like top 10 European countries with highest share of nuclear electricity, was gathered and observed.
 The exploration showed that the data after 2016 was partially incomplete, and prohibited the visualization of some important metrics like GDP or population count.
 
@@ -58,9 +59,18 @@ After the query was returned by MySQL, the data was exported to a final .csv fil
 
 
 ## Data visualization
+After extraction, the data was visualized with Tableau in the form of three dashboards in a story, which can be accessed with the url
+
+https://public.tableau.com/views/EuropeEnergy2019/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link.
+
+The story dashboards present three areas of the project:
+- primary energy consumption,
+- electricity generation,
+- breakdown of sources of energy and electricity.
 
 
-
+## Final report
+The report in the form of presentation can be accessed in the file Findings_report.pdf.
 
 
 
